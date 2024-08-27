@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background: white;
+}
+.logo{
+    flex:20%;
+    margin-left: 10%;
+    text-align: left;
+}
+.logo h1{
+    font-family: "Poetsen One", sans-serif;
+    color: #180f4a;
+    font-size: 34px;
+}
+.menu{
+    flex:70%;
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: #180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+#botao{
+    background: #180f4a;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 20px;
+    margin-right: 15%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border: none;
+    background:#ff2978;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    padding: 0;
+    margin:0;
+}
+.headline p{
+    color: grey;
+    text-align: left;
+}
+.contact-btn{
+    display: inline-block;
+    background: #ff2978;
+    padding:20px;
+    color:white;
+    text-transform: uppercase;
+    border-radius:5px;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    background: #180F4A
+}
+section{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+} 
+section h2{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin:0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: bold;
+    color: #180F4A;
+}
+.servicos{
+    display:flex;
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    margin: 1px;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor:pointer;
+    height: 300px;
+    transition: ease 0.4s;
+    overflow: auto;
+    scrollbar-width:none;
+}
+.card:hover{
+    background: #ff2978;
+    color: white;
+    justify-content: start;
+} 
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+ .card:hover .oculto{
+    display:block;
+} 
+
+.oculto{
+    display:none;
+}
+footer{
+    margin-top:100px;
+    height: 300px;
+    background-image:linear-gradient(180deg,#180F4A, rgb(1, 1, 36), black);
+    font-family: "Poetsen One", sans-serif;
+    border-top: 5px solid #ff2978;
+    text-align: center;
+}
+.logobaixo{
+    padding:60px;
+}
+.nome{
+    text-align: center;
+    color:#ff2978
+}
+.descricao{
+    align-items: center;
+}
+.sobre{
+    font-family: "Poetsen One", sans-serif;
+    height: 100px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    color: #ff2978;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.informacoes{
+    font-family: "Radio Canada Big", sans-serif;
+    display: flex;
+    text-align: center;
+    margin-left: 33%;
+    width: 33%;
+}
+.sobre a{
+    color: #180f4a;
+    font-size: 20px;
+    align-items: end;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+.sobre a:hover{
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+.fund{
+    margin-left: 60%;
+    border-radius: 50px;
+}
+
+.sobrec h2{
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+.sobrev{
+    font-family: "Poetsen One", sans-serif;
+    height: 100px;
+    margin-right: 10%;
+    align-items: center;
+    color: #ff2978;
+    width: 80%;
+    justify-content: space-between;
+}
+.img-headline2{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+.contrate{
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Poetsen One", sans-serif;
+    height: 100px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    color: #ff2978;
+    width: 80%;
+}
+.contrate a{
+    color: #180f4a;
+    font-size: 20px;
+    align-items:self-end;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+.contrate a:hover{
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+.hover:hover {
+    background: #ff2978;
+    color: white;
+    justify-content: start;
+}
+.hover:hover img{
+    display:none;
+}
+.quebra{
+    text-overflow: clip;
+    width: 600px;
+}
